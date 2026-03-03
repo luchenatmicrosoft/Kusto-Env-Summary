@@ -1,0 +1,15 @@
+/* Force text wrapping and remove horizontal scroll in tables */
+.markdown-rendered table, 
+.markdown-source-view.mod-cm6 .cm-content table {
+    width: 100% !important;
+    table-layout: auto !important;
+}
+
+.markdown-rendered td, 
+.markdown-rendered th,
+.markdown-source-view.mod-cm6 .cm-content td,
+.markdown-source-view.mod-cm6 .cm-content th {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+}
